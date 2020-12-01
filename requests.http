@@ -1,0 +1,47 @@
+
+GET https://project--cars.herokuapp.com/cars
+
+###
+
+
+GET https://project--cars.herokuapp.com/cars/5
+
+###
+
+
+GET https://project--cars.herokuapp.com/cars/by-vendor/4
+
+###
+
+
+GET https://project--cars.herokuapp.com/cars/by-bodyType/suv
+
+###
+
+
+GET https://project--cars.herokuapp.com/cars/by-color/white
+
+###
+
+GET https://project--cars.herokuapp.com/cars/search?color=red&gearbox=automatic
+
+###
+
+POST https://project--cars.herokuapp.com/cars
+Content-Type: application/json
+
+{
+  "id": 2,
+  "vendorId": 1,
+  "name": "Sportage",
+  "price": 1580,
+  "power": 150,
+  "bodyType": "suv",
+  "equip": "comfort",
+  "gearbox": "automatic",
+  "color": "blue"
+}
+
+###
+
+DELETE https://project--cars.herokuapp.com/cars/18
