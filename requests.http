@@ -44,4 +44,21 @@ Content-Type: application/json
 
 ###
 
+POST https://project--cars.herokuapp.com/cars
+Content-Type: application/json
+
+{
+  "id": 0,
+  "vendorId": 4,
+  "name": "Prius",
+  "price": 1940,
+  "power": 150,
+  "bodyType": "hatchback",
+  "equip": "comfort",
+  "gearbox": "automatic",
+  "color": "gray"
+}
+
+###
+
 DELETE https://project--cars.herokuapp.com/cars/18
